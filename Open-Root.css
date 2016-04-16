@@ -1,0 +1,96 @@
+#step1{
+ 	width: 0px;
+	height: 200px;
+	border-radius: 15px;
+	-webkit-transition: width 2s;
+	-moz-transition: width 2s;
+	transition: width 2s;
+ }
+
+#step1.active{
+	width: 400px;
+}
+
+
+#step3,#step4,#step6,#step9,#step10{
+	width: 900px;
+	height: 755px;
+	background-color: white;
+	border-radius: 15px;	
+}
+#step7,#step8{
+	width: 1200px;
+	height: 755px;
+	background-color: white;
+	border-radius: 15px;	
+}
+
+.step {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+}
+
+.step{
+    margin: 0;
+    opacity: 0.3;
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;	
+}
+
+.step.active { opacity: 1 }
+
+
+.title{
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.subtitle{
+	color:#86B404;
+	font-size: 25px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.texte{
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	text-align:justify;
+}
+
+.view{
+	font-size: 190px;
+}
+
+.imgTable{
+
+	margin-right: 15px;
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+.sign{
+	width: 80px;
+	height: 80px;
+	padding-left: 110px;
+}
+
+.conclusion{
+	font-size: 25px;
+	text-align: center;
+}
+
+body{
+	background-color: white;
+}
