@@ -4,6 +4,8 @@
 	border-radius: 15px;
 	-webkit-transition: width 2s;
 	-moz-transition: width 2s;
+	-ms-transition: width 2s;
+	-o-box-sizing: width 2s;
 	transition: width 2s;
  }
 
@@ -11,16 +13,17 @@
 	width: 400px;
 }
 
-
-#step3,#step4,#step6,#step9,#step10{
-	width: 900px;
-	height: 755px;
+#step3,#step4,#step6,
+#step9,#step10{
+	width: 68em;
+	height: 47em;
 	background-color: white;
-	border-radius: 15px;	
+	border-radius: 15px;
 }
+
 #step7,#step8{
-	width: 1200px;
-	height: 755px;
+	width: 80em;
+	height: 50em;
 	background-color: white;
 	border-radius: 15px;	
 }
@@ -69,7 +72,7 @@
 }
 
 .view{
-	font-size: 190px;
+	font-size: 20vh;
 }
 
 .imgTable{
