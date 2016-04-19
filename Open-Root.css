@@ -50,6 +50,15 @@
 .step.active { opacity: 1 }
 
 
+#step11{
+	display: none;
+}
+
+.impress-on-step11 .step{
+	opacity: 1;
+    cursor: pointer;
+}
+
 .title{
 	font-weight: bold;
 	font-size: 40px;
